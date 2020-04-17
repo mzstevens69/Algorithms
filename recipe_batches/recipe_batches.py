@@ -3,7 +3,19 @@
 import math
 
 def recipe_batches(recipe, ingredients):
-  pass 
+#set batches to 0
+    batches = 0
+
+    for name, qty in recipe.items():
+#look for milk in your inventory and if you don't have milk then can't do recipe       
+# check if I have enough milk in inventory if I don't then can't do recipe 
+# if I have both milk and enough milk I can compare the qty needed against the quantity I have.
+#     
+            
+            
+        return batches
+
+     
 
 
 if __name__ == '__main__':
